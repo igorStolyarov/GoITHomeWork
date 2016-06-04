@@ -1,7 +1,7 @@
 package com.goit.gojavaonlinethree.student.igorstolyarov.module03.files;
 import java.util.Date;
 
-public class Files {
+public abstract class Files {
 
     private String name;
     private double size;
