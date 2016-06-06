@@ -4,15 +4,13 @@ import java.lang.Math;
 
 public class Distance {
 
-    double x1;
-    double x2;
+    static double distX1 = Runner.distanceX1;
+    static double distX2 = Runner.distanceX2;
+    static double distY1 = Runner.distanceY1;
+    static double distY2 = Runner.distanceY2;
+    static double distBetweenPoint = dist();
 
-    double y1;
-    double y2;
-
-
-
-    double dist (double x2, double x1, double y2, double y1) {
-        return Math.sqrt((x2 - x1)*2 + (y2 -y1)*2);
+    protected static double dist() {
+        return Math.sqrt((Distance.distX2 - Distance.distX1)*2 + (Distance.distY2 - Distance.distY1)*2);
     }
- }
+}
