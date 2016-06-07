@@ -1,23 +1,37 @@
 package com.goit.gojavaonlinethree.student.igorstolyarov.module04.shapes;
 
-public class Shapes {
+public class Shapes extends LineSegment {
 
     // Triangle
 
-    float areaTriangle(float triangleAreaA, float triangleAreaH){
-        return (triangleAreaA * triangleAreaH) /2;
-        }
+    public static double areaTriangle() {
+        return ls * ls / 2;
+    }
 
-    // Rectangle
+    protected static double areaRectangle = LineSegment.ls*2;
 
-    int areaRectAngle (int rectAngleA, int rectAngleB){
-        return rectAngleA * rectAngleB;
-        }
+    protected static double circle = Math.PI * (LineSegment.ls);
 
-    // Circle
+    public static double ls = Shapes.getKeyboard;
 
-    double radius (double rc) {
-        return Math.PI * (rc * rc);
-        }
+
+
+
+
+//    float areaTriangle(float triangleAreaA, float triangleAreaH){
+//        return (triangleAreaA * triangleAreaH) /2;
+//        }
+//
+//    // Rectangle
+//
+//    int areaRectAngle (int rectAngleA, int rectAngleB){
+//        return rectAngleA * rectAngleB;
+//        }
+//
+//    // Circle
+//
+//    double radius (double rc) {
+//        return Math.PI * (rc * rc);
+//        }
     }
 
