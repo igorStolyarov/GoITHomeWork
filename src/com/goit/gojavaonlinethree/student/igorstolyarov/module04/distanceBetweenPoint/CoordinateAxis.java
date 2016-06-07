@@ -1,16 +1,24 @@
 package com.goit.gojavaonlinethree.student.igorstolyarov.module04.distanceBetweenPoint;
 
+
+
 public class CoordinateAxis {
-    double coorX1, coorX2, coorY1, coorY2;
-    String firstEnterValue = "Please, enter value";
-    String nextEnterValue = "Please, enter next value";
+
+    static double coorX2 = RunBetween.getNumber1;
+    static double coorX1 = RunBetween.getNumber2;
+    static double coorY2 = RunBetween.getNumber3;
+    static double coorY1 = RunBetween.getNumber4;
 
     //temps variable
 
-    double coorX = coorX2 - coorX1;
-    double coorY = coorY2 - coorY1;
+    static double coorX = coorX2 - coorX1;
+    static double coorY = coorY2 - coorY1;
+  //  public static double res = Math.sqrt(((CoordinateAxis.coorX) * 2) + (CoordinateAxis.coorY)*2);
 
-    double getNumberKeypad(){
-        return Math.sqrt(((coorX) * 2) + (coorY)*2);
+   static double calculate = CoordinateAxis.res();
+
+
+    public static double res(){
+        return Math.sqrt(((CoordinateAxis.coorX) * 2) + (CoordinateAxis.coorY)*2) ;
     }
 }
