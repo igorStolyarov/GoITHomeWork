@@ -13,7 +13,6 @@ public class CoordinateAxis {
 
     static double coorX = coorX2 - coorX1;
     static double coorY = coorY2 - coorY1;
-  //  public static double res = Math.sqrt(((CoordinateAxis.coorX) * 2) + (CoordinateAxis.coorY)*2);
 
    static double calculate = CoordinateAxis.res();
 
