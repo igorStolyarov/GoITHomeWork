@@ -1,4 +1,4 @@
-package com.goit.gojavaonlinethree.student.igorstolyarov.module05.arraysMinToMax;
+package com.goit.gojavaonlinethree.student.igorstolyarov.module05.arraysSort;
 
 import java.util.Random;
 

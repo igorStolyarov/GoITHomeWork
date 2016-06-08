@@ -1,4 +1,4 @@
-package com.goit.gojavaonlinethree.student.igorstolyarov.module05.arraysMinToMax;
+package com.goit.gojavaonlinethree.student.igorstolyarov.module05.arraysSort;
 
 public class RunMinToMax extends SortValueOnArrayMinToMax {
 
