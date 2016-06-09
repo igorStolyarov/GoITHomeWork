@@ -1,10 +1,6 @@
 package com.goit.gojavaonlinethree.student.igorstolyarov.module051;
 
-/**
- * Created by Igor on 09.06.2016.
- */
-
-    // Runner для обработки массивов
+// Runner для обработки массивов
 
 public class RunArrays {
     public static void main(String[] args) {
