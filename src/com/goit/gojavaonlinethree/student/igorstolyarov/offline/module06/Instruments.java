@@ -1,4 +1,4 @@
-package com.goit.gojavaonlinethree.student.igorstolyarov.module03.music;
+package com.goit.gojavaonlinethree.student.igorstolyarov.offline.module06;
 
 import java.lang.reflect.Type;
 
