@@ -1,4 +1,4 @@
-package com.goit.gojavaonlinethree.student.igorstolyarov.module051;
+package com.goit.gojavaonlinethree.student.igorstolyarov.module06.task1;
 
 // Runner для обработки массивов
 

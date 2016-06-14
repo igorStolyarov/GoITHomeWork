@@ -1,4 +1,4 @@
-package com.goit.gojavaonlinethree.student.igorstolyarov.module051;
+package com.goit.gojavaonlinethree.student.igorstolyarov.module05;
 import java.util.Random;
    /**
     * Задача 1. Создать класс, который осуществляет поиск максимального
