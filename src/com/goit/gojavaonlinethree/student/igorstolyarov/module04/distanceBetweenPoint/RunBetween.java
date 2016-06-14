@@ -8,7 +8,7 @@ import static com.goit.gojavaonlinethree.student.igorstolyarov.module04.distance
 
 public class RunBetween {
 
-    public  static double getNumber1, getNumber2, getNumber3, getNumber4;
+    public  static double getNumber1, getNumber2, getNumber3, getNumber4;;
 
     public static void main(String[] args) {
 
