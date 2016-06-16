@@ -15,10 +15,10 @@ public class ConverterTemperaturs {
 
     /*
      *создаем метод, который будет преобразовывать полученные данны и
-     *возвращать обработанное значение в раннер
+     *возвращать обработанное значение в celsiyToPharinghate
      */
 
-    public static double getAndReturn () {
+    public static double getAndReturn() throws Exception{
         return celsiyToPharinghate * 9.0 / 5 + 32;
-        }
+    }
 }
