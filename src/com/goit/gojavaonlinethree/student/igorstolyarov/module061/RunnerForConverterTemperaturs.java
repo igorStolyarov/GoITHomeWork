@@ -9,10 +9,12 @@ public class RunnerForConverterTemperaturs extends ConverterTemperaturs {
       public static void main(String[] args) throws Exception {
 
         Scanner scanner = new Scanner(System.in);
+
         // вместо кучи текста в main создал строки в отдельном классе
         System.out.println(hi);
         // начинаем отлавливать ошибку
-          try {
+
+         try {
               celsiyToPharinghate = scanner.nextDouble();
         /*
         если введена не цифра, то вылазит InputMismatchException
@@ -28,5 +30,3 @@ public class RunnerForConverterTemperaturs extends ConverterTemperaturs {
 остался вопрос. Мы в сканнере ожидаем ввода значчение типа double.
 Почему вылазит ошибка, если я ввожу 14.8?
  */
-
-
