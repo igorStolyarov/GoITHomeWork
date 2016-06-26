@@ -3,12 +3,9 @@ package com.goit.gojavaonlinethree.student.igorstolyarov.module061;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static com.goit.gojavaonlinethree.student.igorstolyarov.module061.Text.hi;
-import static com.goit.gojavaonlinethree.student.igorstolyarov.module061.Text.rezultText;
-
 public class RunnerForConverterTemperaturs extends ConverterTemperaturs {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
           /* ДЗ модуль 7
           необходимо:
@@ -16,8 +13,7 @@ public class RunnerForConverterTemperaturs extends ConverterTemperaturs {
           Формат описания - комментарии в исходном коде с предложениями их решения.
           Решение обсудить с ментором и только ПОСЛЕ этого изменять код.
 
-
-             1.В классе runner
+             1. В классе runner
                 1.1. Выносим scanner в отдельный класс
                 1.2. Для exception создаем отдельный класс
                 1.3. Зацикливаем пользователя до введения корректного значения
@@ -34,23 +30,31 @@ public class RunnerForConverterTemperaturs extends ConverterTemperaturs {
         Scanner scanner = new Scanner(System.in);
 
         // вместо кучи текста в main создал строки в отдельном классе
-        System.out.println(hi);
+        System.out.println(Text.getFirstMessage());
         // начинаем отлавливать ошибку
 
         // делаем do wile
-        try {
-            celsiyToPharinghate = scanner.nextDouble();
-        /*
+        boolean isDigit = false;
+        do {
+            try {
+                if(scanner.hasNextDouble()) {
+                    celsiyToPharinghate = scanner.nextDouble();
+                    scanner.reset();
+                    isDigit = true;
+                    System.out.println(Text.getRezultText() + "\n" + getAndReturn());
+
+                } else {
+                    System.out.println(Text.getErrorMessage());
+                    System.out.println(Text.getErrorMessage());
+                }
+                /*
         если введена не цифра, то вылазит InputMismatchException
          */
-        } catch (InputMismatchException e) {
-            System.out.println("[Error:] Введите цифру");
-            return;
-        }
-        System.out.println(rezultText + "\n" + getAndReturn());
+            } catch (InputMismatchException e) {
+
+
+            }
+
+        } while (!isDigit);
     }
 }
-/*
-остался вопрос. Мы в сканнере ожидаем ввода значчение типа double.
-Почему вылазит ошибка, если я ввожу 14.8?
- */

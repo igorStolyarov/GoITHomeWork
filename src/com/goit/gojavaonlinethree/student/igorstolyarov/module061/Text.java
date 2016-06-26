@@ -1,9 +1,23 @@
 package com.goit.gojavaonlinethree.student.igorstolyarov.module061;
 
 /*
-Класс созданный для текстовых переменных, чтобы класс main выглядел получше
+Класс создан для текстовых переменных, чтобы класс main выглядел получше
  */
-public class Text {
-    protected static String hi = "Для перевода значения из Цельсия в Фарингейты, введите число";
-    protected static String rezultText = "Температура по шкале Фарингейта равна ";
+class Text {
+    private static String firstMessage = "Для перевода значения из Цельсия в Фарингейты,\n" +
+                                         "введите число. Если необходима дробная часть, тогда через запятую";
+    private static String rezultText   = "Температура по шкале Фарингейта равна ";
+    private static String errorMessage = "Не могу распознать симовлы. Введите число повторно";
+
+    public static String getFirstMessage() {
+        return firstMessage;
+    }
+
+    public static String getRezultText() {
+        return rezultText;
+    }
+
+    public static String getErrorMessage() {
+        return errorMessage;
+    }
 }

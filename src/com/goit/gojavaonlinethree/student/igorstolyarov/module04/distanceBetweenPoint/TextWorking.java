@@ -3,9 +3,8 @@ package com.goit.gojavaonlinethree.student.igorstolyarov.module04.distanceBetwee
 public class TextWorking {
 
     protected static String youWelcome = "Hi! Your welcome. " +
-                                         "\nI will help to calculate the distance between two points." +
-                                         "\nPlease, enter first value.";
+            "\nI will help to calculate the distance between two points." +
+            "\nPlease, enter first value.";
     protected static String nextEnterValue = "Please, enter next value";
     protected static String textResult = "Result = ";
-
 }
