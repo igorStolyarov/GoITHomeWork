@@ -7,11 +7,7 @@ public class Circle {
     double getKB;
     boolean isDigit = false;
 
-    double result () {
-       return Math.PI * (getKB * getKB);
-    }
-
-    Circle() {
+      Circle() {
         do {
             try {
                 System.out.println("Введите значение");
