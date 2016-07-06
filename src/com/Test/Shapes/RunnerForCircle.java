@@ -6,6 +6,5 @@ public class RunnerForCircle {
 
         Circle circle = new Circle();
 
-
     }
 }
