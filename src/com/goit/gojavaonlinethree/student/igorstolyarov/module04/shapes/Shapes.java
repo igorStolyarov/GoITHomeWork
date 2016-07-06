@@ -28,7 +28,7 @@ public class Shapes extends LineSegment {
 //        return rectAngleA * rectAngleB;
 //        }
 //
-//    // Circle
+//    // Shapes
 //
 //    double radius (double rc) {
 //        return Math.PI * (rc * rc);

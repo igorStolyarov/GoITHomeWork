@@ -32,7 +32,7 @@ public class Runner {
 //
 //        System.out.println("Area of rectangle = " + mathRectangle);
 //
-//        // Circle
+//        // Shapes
 //        double radiusCircle = shapes.radius(9);
 //
 //        System.out.println("Area of circle = " + radiusCircle);

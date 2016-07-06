@@ -12,6 +12,7 @@ public class Convertor {
                 System.out.println("Для перевода из Цельсия в Фарингейты введите цифру");
                 Scanner scanner = new Scanner(System.in);
                 double getKeyb = scanner.nextDouble();
+                //getKeyb.setDecimalSeparator(',');
                 isDigit = true;
                 double result = getKeyb * 9.0d / 5.0d + 32;
                 System.out.println("Температура в Фарингейтах = " + result);
